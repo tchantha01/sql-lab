@@ -30,3 +30,5 @@ DELETE
 FROM invoice
 WHERE invoice_id = 1;
 
+ALTER TABLE invoice_line
+DROP CONSTRAINT invoice_line_invoice_id_fkey;
